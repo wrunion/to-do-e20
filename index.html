@@ -33,18 +33,22 @@
 <body>
  <!-- Do your thing!  -->
 <div class="ui container" id="main">
+  <form id="newListForm">
  <h1 class="ui title">Make a List!</h1>
- <form id="newListForm">
    <!-- Figure out why this is displaying, in spite of the "sr-only" class -->
   <!-- <label class="sr-only" for="nameInput">Name</label> -->
    <div class="ui input large">
-   <input type="text" id="nameInput" placeholder="Enter Your Name" required>
+   <input type="text" id="nameInput" placeholder="Enter Your Name" required value="Winter">
   </div>
  <button type="submit" class="ui button large blue" id="makeListButton">Click here to start your to-do list!</button>
  <!-- Onclick, this should create a new List object in JS. then the user should be shown a form where they can enter their to do items, and see them displayed back to them. -->
 </form>
 
-    <form id="itemsForm">
+    <form id="itemsForm" class="hidden-start">
+      <h1 class="ui header"><span id="userName"></span>'s List:</h1>
+      <div class="ui input">
+        <input type=text>
+      </div>
 
     </form>
     <div id="resultsDiv"></div>

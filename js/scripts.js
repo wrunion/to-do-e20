@@ -37,10 +37,16 @@ function ToDoItem(category, dueDate, priority) {
 
 // UI Logic, jQuery ---------------------
 $(document).ready(function(event) {
+    let name;
     $("#newListForm").submit(function(event) {
-
+        name = $("#nameInput").val();
+        $("#newListForm").hide();
+        $("#userName").append(name);
+        $("#itemsForm").show();
     event.preventDefault();
     });
+
+    
 
 });
 
