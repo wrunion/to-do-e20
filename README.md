@@ -1,11 +1,23 @@
-# Epicodus Boilerplate
+# JavaScript To-Do Checklist
 
-#### _An HTML template that includes Bootstrap and jQuery CDN links, 1.28.2020_
+#### A "to do" checklist designed with JavaScript and jQuery, for Epicodus class of 2020.
 
-#### By _**Winter A. Runion**_
+#### By **Winter A. Runion**
 
 ## Description
-_Epicodus intro student projects all use the same file tree and technology (Bootstrap and jQuery), so here they are, all linked together in one place for your convenience._ 
+_An app where users can enter items to do, and then check them off once they've completed the entered tasks. Items will fade from the page once checked off._
+
+## Specs
+| Spec | Input | Output |
+| :------------------------- | : ------------------- | :------------------- |
+| There is an input box where user can input text |
+
+| The inputted text should be displayed to the user on the page | "buy milk" | "buy milk" |
+| The inputted value should be added |
+
+
+
+
 
 ## Instructions
 
